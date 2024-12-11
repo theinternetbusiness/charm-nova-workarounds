@@ -14,8 +14,7 @@ juju add-relation nova-workarounds nova-compute
 
 ## Configuration
 
-Specify settings in key = value format, one per line:
-
+Specify settings in key = value format:
 ```bash
 juju config nova-workarounds skip_cpu_compare_at_startup=true
 juju config nova-workarounds skip_cpu_compare_on_dest=true
