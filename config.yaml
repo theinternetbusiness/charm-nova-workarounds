@@ -1,0 +1,12 @@
+---
+options:
+  skip_cpu_compare_at_startup:
+    type: boolean
+    default: False
+    description: |
+      Skip CPU comparison checks during Nova compute startup
+  skip_cpu_compare_on_dest:
+    type: boolean
+    default: False
+    description: |
+      Skip CPU comparison checks on the destination host during live migration

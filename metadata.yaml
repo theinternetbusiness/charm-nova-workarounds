@@ -1,0 +1,14 @@
+---
+name: nova-workarounds
+summary: Subordinate charm to manage Nova workarounds
+maintainer: Alun James <ajames@tibus.com>
+description: |
+  This subordinate charm manages Nova workarounds configuration,
+  allowing flexible configuration of any Nova workaround settings.
+tags:
+  - openstack
+subordinate: true
+requires:
+  juju-info:
+    interface: juju-info
+    scope: container
